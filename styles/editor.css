@@ -1,0 +1,37 @@
+editor {
+    position: absolute !important;
+    
+    top: 30px;
+    bottom: 0px;
+    left: 300px;
+    right: 0px;
+
+    display: block;
+
+    border-right: 1px solid black;
+}
+
+.marker-css {
+    background: 'green';
+    position: absolute;
+}
+
+.vis-selection
+{
+    background: #DAFECC;
+    position: absolute;
+}
+
+minimap {
+    position: absolute;
+
+    top: 30px;
+    bottom: 0px;
+    left: 0px;
+
+    width: 300px;
+
+    overflow: scroll; /*might need to change to scroll*/
+
+    border-right: 1px solid black;
+}
